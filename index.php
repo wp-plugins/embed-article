@@ -66,7 +66,7 @@
 			if(get_option('emba_style')!="invisible") {
 				echo 	'<script type="text/javascript">';
 				echo  	'embaStyle="'.get_option('emba_style').'";';
-				echo	'pub="'.get_option('emba_pub_value').'";';
+				echo	'embaPub="'.get_option('emba_pub_value').'";';
 				echo	'embaURL="'.get_permalink().'";</script>';
 				echo	'<script type="text/javascript" src="http://'.embed_host().'/javascripts/'.embed_file().'"></script>';
 			}

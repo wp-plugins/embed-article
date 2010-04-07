@@ -16,6 +16,7 @@
 		<?php    echo "<h4>" . __( 'Display Options', '' ) . "</h4>"; ?>
 		<hr />
 		<p><input type="radio" name="display" value="show" <?php if($display=='show'){echo 'checked';}?>> Show widget at top of post</p>
+		<p><input type="radio" name="display" value="showboth" <?php if($display=='showboth'){echo 'checked';}?>> Show widget at top of post and in excerpt (Note: Your template must display excerpts for this to work)</p>
 		<p><input type="radio" name="display" value="none" <?php if($display=='none'){echo 'checked';}?>> I want to place the widget in a specific place (see Advanced)</p>
 		<p><b>Advanced</b>: Changing the location of where the widget appears: If you would like to change the location of where the Embed Article Widget appears, place the following code inside your template exactly where you'd like it to appear.</p>
 		<p>&lt;?php display_embedarticle_widget() ?&gt;</p>

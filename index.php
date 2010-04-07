@@ -23,6 +23,7 @@
 
 	add_action('admin_menu', 'embed_admin_actions');
 	add_filter('the_content', 'add_widget', 9);
+	add_filter('the_excerpt', 'add_widget_to_excerpt', 9);
 	add_filter('the_content', 'add_container_tags');
 	
 	function embed_admin() {
@@ -50,10 +51,18 @@
 	}
 	
 	function add_widget($content) {
-		if(get_option('emba_display')=="show") {
+		if(get_option('emba_display')=="show" || get_option('emba_display')=="showboth") {
 			return display_embedarticle_widget().$content;
 		} else {
 			return display_embedarticle_cp().$content;
+		}
+	}
+	
+	function add_widget_to_excerpt($content) {
+		if(get_option('emba_display')=="showboth") {
+			return display_embedarticle_widget().$content;
+		} else {
+			return $content;
 		}
 	}
 	

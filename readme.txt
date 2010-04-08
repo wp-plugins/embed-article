@@ -7,6 +7,7 @@ Version: 1.01
 Author URI: http://www.embedarticle.com
 Requires at least: 2.0.2
 Tested up to: 2.9
+Stable tag: 4.3
 
 Plugin for ad supported embedding of articles resulting in increased SEO for your website.
 

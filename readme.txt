@@ -3,11 +3,12 @@ Plugin Name: Embed Article
 Plugin URI: http://www.embedarticle.com
 Tags: copyright, SEO, search engine optimization, advertising, revenue, embed, embedded, article, ad, ad supported, copy, paste, post, plugin, theft, steal, google, search
 Author: Embed Article
-Version: 1.01
+Contributors: Embed Article
+Version: 1.0.1
 Author URI: http://www.embedarticle.com
 Requires at least: 2.0.2
 Tested up to: 2.9
-Stable tag: 1.01
+Stable tag: 1.0.1
 
 Plugin for ad supported embedding of articles resulting in increased SEO for your website.
 
@@ -62,5 +63,5 @@ It is fast and free.  Once you are registered, visit the Wordpress page under th
 
 = 1.0 =
 * First Release
-= 1.01 = 
+= 1.0.1 = 
 * Added support to display widget in excerpts

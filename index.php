@@ -18,7 +18,7 @@
 		return 'embed_cp.js';
 	}
 	function embed_admin_actions() {
-		add_options_page("Embed Article", "Embed Article Options", 1, "Embed Article Options", "embed_admin");
+		add_options_page("Embed Article", "Embed Article Options", 'manage_options', "Embed-Article-Options", "embed_admin");
 	}
 
 	add_action('admin_menu', 'embed_admin_actions');

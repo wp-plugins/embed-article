@@ -4,7 +4,7 @@
 	Plugin URI: http://www.embedarticle.com
 	Description: Plugin for syndicating ad supported articles
 	Author: Embed Article
-	Version: 1.0.1
+	Version: 1.0.2
 	Author URI: http://www.embedarticle.com
 	*/
 	
